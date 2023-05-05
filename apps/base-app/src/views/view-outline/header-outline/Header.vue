@@ -29,7 +29,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { Message } from "@/base/src/components";
+import { Message } from "@/base-app/src/components";
 
 @Component({
 	components: {

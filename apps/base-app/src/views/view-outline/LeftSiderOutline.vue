@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { NavigationMenu } from "@/base/src/components";
+import { NavigationMenu } from "@/base-app/src/components";
 
 @Component({
 	components: {

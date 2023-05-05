@@ -1,10 +1,10 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import HeaderOutline from "@/base/src/views/view-outline/header-outline/HeaderOutline.vue";
-import LeftSiderOutline from "@/base/src/views/view-outline/LeftSiderOutline.vue";
-import App1 from "@/base/src/views/app1/Index.vue";
-import App2 from "@/base/src/views/app2/Index.vue";
-import App3 from "@/base/src/views/app3/Index.vue";
+import HeaderOutline from "@/base-app/src/views/view-outline/header-outline/HeaderOutline.vue";
+import LeftSiderOutline from "@/base-app/src/views/view-outline/LeftSiderOutline.vue";
+import App1 from "@/base-app/src/views/app1/Index.vue";
+import App2 from "@/base-app/src/views/app2/Index.vue";
+import App3 from "@/base-app/src/views/app3/Index.vue";
 
 Vue.use(VueRouter);
 

@@ -9,7 +9,7 @@ module.exports = {
 	app1: {
 		port: 8991
 	},
-	base: {
+	"base-app": {
 		port: 8990
 	},
 	login: {
