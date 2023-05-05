@@ -2,10 +2,10 @@
 	"BASE_API": "http://ip/",
 	"NODE_API": "http://ip:port/",
 	"HOST": {
-		"LOGIN": "http://an.local-dev.labcloud.com:5210/micro-login/",
-		"BASE": "http://an.local-dev.labcloud.com:5210/base/",
-		"APP1": "http://an.local-dev.labcloud.com:5210/app1/",
-		"APP2": "http://an.local-dev.labcloud.com:5210/app2/",
-		"APP3": "http://an.local-dev.labcloud.com:5210/app3/"
+		"LOGIN": "http://101.132.166.2:5210/micro-login/",
+		"BASE": "http://101.132.166.2:5210/base/",
+		"APP1": "http://101.132.166.2:5210/app1/",
+		"APP2": "http://101.132.166.2:5210/app2/",
+		"APP3": "http://101.132.166.2:5210/app3/"
 	}
 }
