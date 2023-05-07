@@ -32,5 +32,5 @@ node 版本不低于16.18.0
 ### nginx代理配置
 ```
 1.配置nginx
-2.hosts文件配置127.0.0.1    an.local-dev.labcloud.com
+2.hosts文件配置127.0.0.1    an.local-dev.andry.com
 ```
