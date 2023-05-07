@@ -1,7 +1,7 @@
 <template lang="pug">
   div.app-3
     h2 子应用3
-    micro-app(name='app3' url='http://an.local-dev.andry.com:5210/app3/#/')
+    micro-app(name='app3' url='http://an.local-dev.andry.com:5210/app3/#/' baseroute='/app3')
 </template>
 
 <script lang="ts">
