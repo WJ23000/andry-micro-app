@@ -129,7 +129,7 @@ export default class Login extends Vue {
 	}
 
 	toPage(type) {
-		window.location.replace(`${this.$HOST[type]}`);
+		window.location.replace(`${this.$HOST[type]}`+'#/app1');
 	}
 }
 </script>

@@ -27,13 +27,13 @@ export default class LeftSiderOutline extends Vue {
 		{
 			id: "app2",
 			title: "子应用2",
-			icon: "home",
+			icon: "windows",
 			path: "/app2"
 		},
 		{
 			id: "app3",
 			title: "子应用3",
-			icon: "home",
+			icon: "apple",
 			path: "/app3"
 		}
 	];
