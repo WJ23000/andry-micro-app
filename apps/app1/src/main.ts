@@ -3,10 +3,12 @@ import App from "./App.vue";
 import router from "./router";
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
+import './public-path';
 // import "./uiAdapter";
 import "./styles/common.styl";
 import axios from "axios";
 import { RequestService } from "@/login/src/service";
+
 
 Vue.use(Antd);
 

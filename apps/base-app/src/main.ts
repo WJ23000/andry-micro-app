@@ -12,6 +12,10 @@ import { RequestService } from "@/login/src/service";
 Vue.use(Antd);
 microApp.start();
 
+if (window.__MICRO_APP_BASE_APPLICATION__) {
+  console.log('base是基座应用');
+}
+
 Vue.config.productionTip = false;
 
 axios.get("./config.json").then(res => {

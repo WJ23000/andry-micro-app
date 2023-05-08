@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
 	{
-		path: "/app2",
+		path: window.__MICRO_APP_BASE_ROUTE__ || '/',
 		name: "Index",
 		component: Index
 	},

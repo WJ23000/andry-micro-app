@@ -55,15 +55,20 @@ export default class NavigationMenu extends Vue {
 
 	// 点击菜单，路由跳转,注意的是当点击MenuItem才会触发此函数
 	menuClick({ item, key, keyPath }) {
-		// 获取到当前的key,并且跳转
-		this.$router.push({
-			path: key
-		});
+		if (key !== this.$route.path) {
+			// 获取到当前的key,并且跳转
+			this.$router.push({
+				path: key
+			});
+		}
 	}
 
 	onOpenChange(openKeys) {
-		console.log("触发了不",openKeys)
-		window.sessionStorage.setItem("openKeys", JSON.stringify(openKeys.slice(-1)));
+		console.log("触发了不", openKeys);
+		window.sessionStorage.setItem(
+			"openKeys",
+			JSON.stringify(openKeys.slice(-1))
+		);
 		//  控制只打开一个
 		const latestOpenKey = openKeys.find(
 			key => this.openKeys.indexOf(key) === -1

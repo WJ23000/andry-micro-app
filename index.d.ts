@@ -8,6 +8,13 @@ declare global {
 			[elem: string]: any;
 		}
 	}
+	interface Window {
+		__MICRO_APP_ENVIRONMENT__: any;
+		__MICRO_APP_PUBLIC_PATH__: any;
+		__MICRO_APP_BASE_APPLICATION__: any;
+		__MICRO_APP_BASE_ROUTE__: any;
+		microApp: any;
+	}
 }
 declare module "vue/types/vue" {
 	interface Vue {
