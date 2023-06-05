@@ -15,7 +15,7 @@ export default class App3 extends Vue {
 	created() {
 		console.log("app3元素被创建");
 		// setGlobalData只接受对象作为参数
-    microApp.setGlobalData({ baseData: "基座提供的全局数据" });
+    // microApp.setGlobalData({ baseData: "基座提供的全局数据" });
 	}
 
 	beforemount() {

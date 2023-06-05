@@ -18,9 +18,6 @@ import microApp from "@micro-zoe/micro-app";
 export default class App2 extends Vue {
 	created() {
 		console.log("app2元素被创建");
-		const globalData = microApp.getGlobalData(); // 返回全局数据
-    console.log("全局数据", globalData);
-		
 	}
 
 	beforemount() {
